@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<SCRIPT src=" validazione_input.js" defer ></SCRIPT>
+<link rel="stylesheet" href ="Stile_Menu.css">
+</HEAD>
+<BODY id = "body">
+
+	<FORM action="ricevi_un_file.php" method="POST" enctype="multipart/form-data">
+		
+	<!--Nota: il nome utente inserito in questa prova, in un'applicazione sarà recuperato dalla session dopo il login -->
+	<br><br>
+	<input type="text" name="nome_utente" placeholder="inserisci nome"/><br><br>
+	<input type="text" name="cognome_utente" placeholder="inserisci cognome"/><br><br>
+	<input type="text" name="nomeUtente" placeholder="inserisci nome utente"/>
+	<br><br>
+
+	<!-- Input per l'invio di un file -->
+	Carica documento
+	<input type="file" name="file_utente" id="file_utente">
+	<br><br>
+
+	<input type="submit" value="Invia"/>
+
+</FORM>
+</BODY>
+</HTML>

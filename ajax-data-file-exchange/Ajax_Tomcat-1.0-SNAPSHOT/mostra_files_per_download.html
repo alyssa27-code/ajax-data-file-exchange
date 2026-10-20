@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<TITLE>mostra_files_per_download</TITLE>
+<link rel="stylesheet" href ="Stile_Menu.css">
+</HEAD>
+<BODY id = "body">
+
+	<FORM action="mostra_files_per_download.php" method="POST">
+
+	<!--Nota: il nome utente inserito in questa prova, in un'applicazione sarà recuperato dalla session dopo il login -->
+	<br><br>
+	<input type="text" name="nomeUtente" placeholder="inserisci nome utente"/>
+	<br><br>
+
+	<!-- Input per l'invio di un file -->
+	Inserisci il nome documento
+	<input type="text" name="nome_file" id="nome_file"><br><br>
+
+	Inserisci l'estensione del documento
+	<input type="text" name="estensione_file" id="estensione_file">
+	<br><br>
+
+	<input type="submit" value="Invia"/>
+
+</FORM>
+</BODY>
+</HTML>

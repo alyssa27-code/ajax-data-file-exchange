@@ -1,0 +1,28 @@
+#menu li {
+    display: inline-block;      
+    background-color: yellow;
+    border: dashed #e59d03;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;      
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: x-large;
+}
+
+#menu a {    
+
+    text-decoration: none;      
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: x-large;
+}
+
+#body{
+
+   background-color: #ffef96;  
+}
+

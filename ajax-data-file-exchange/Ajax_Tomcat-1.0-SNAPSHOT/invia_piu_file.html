@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<SCRIPT src="gestione_input_invio.js" defer></SCRIPT>
+<SCRIPT src="gestione_richieste_invio.js" defer></SCRIPT>
+<!--<SCRIPT src="validazione_input.js" defer ></SCRIPT>-->
+<link rel="stylesheet" href ="Stile_Menu.css">
+</HEAD>
+<BODY id = "body">
+	Inserisci il tuo username
+	<input type="text" name="nomeUtente" id="MyUsername"/><br><br>
+	Inserisci il tuo nome
+	<input type="text" name="nome_utente" id="MyName"/><br><br>
+	Inserisci il tuo cognome
+	<input type="text" name="cognome_utente" id="MySurname"/><br><br>
+	Inserisci il numero di documenti da caricare
+	<input type="text" name="numero_di_file" id="NumDocs" onchange="Comparsa()"/>
+	<p id="ris"></p>
+	<div id="contenitore_input"></div>
+	<div id="divMessage"></div>
+</BODY>
+</HTML>
